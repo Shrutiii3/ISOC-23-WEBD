@@ -1,5 +1,10 @@
 let navbarMenu = document.querySelector('.navbar-menu');
 let dropdownIsOpen = false;
+// for preloader
+var preloader= document.getElementById('loading');
+function myFunction(){
+  preloader.style.display = 'none';
+}
 
 // Handle dropdown menu toggle
 navbarMenu.addEventListener('click', (event) => {

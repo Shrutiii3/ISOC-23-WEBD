@@ -9,14 +9,17 @@
   <title>ISOCeum | Home</title>
 </head>
 
-<body>
+<body onload="myFunction()">
+  <div id="loading">
+
+  </div>
   <!-- navbar -->
   
     <header class="header">
-      <h1 class="logo"><a href="#"><span style="color:#7b00d3; font-size: 25pt;">ISOC</span>eum</a></h1>
+      <h1 class="logo"><a href="#"><span style="color:black; font-size: 25pt;">ISOC</span>eum</a></h1>
       <ul class="main-nav">
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#">Tickets & Visit</a></li>
         <li><a href="#">Art & Stories</a></li>
         <li><a href="#">Contact Us</a></li>
@@ -37,7 +40,7 @@
 
 
   <!-- hero -->
-  <section>
+  <section class="background">
     <div class="hero-sec">
       <div id="hero-headline">
         <div class="main">
@@ -84,8 +87,8 @@
   </section>
 
   <!-- our exhibition gallery -->
-  <section>
-    <div class="our-gallery">
+  <section  id="gallery" >
+    <div class="our-gallery" >
       <p style="color: #764c03; padding-top: 40px;">OUR EXHIBITION GALLERY</p>
     </div>
     <div class="our-gallery our-gallery-container">
