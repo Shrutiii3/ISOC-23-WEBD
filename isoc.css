@@ -17,6 +17,7 @@ body {
     margin: 0;
     min-height: 100vh;
     overflow-x: hidden;
+    
 }
 
 html{
@@ -217,6 +218,8 @@ h1 {
     grid-template-rows: 1fr;
     gap: 10px;
     justify-content: center;
+    margin: 30px 10px;
+    
 }
 
 .oe-flex {
@@ -226,15 +229,23 @@ h1 {
     align-items: center;
     padding: 0;
     margin: 0;
+    
+    border-radius: 10px;
+}
+.oe-flex:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 6px black;
+    background-color: #bfe1ef;
 }
 
 img.oe-flex-item {
+    margin-top: 10px;
     height: 200px;
     width: 200px;
     overflow: hidden;
     display: block;
     width: 200px;
-    z-index: -1;
+    z-index: 5;
     height: 200px;
     transition: transform 0.3s;
 }
@@ -244,6 +255,7 @@ p.oe-flex-item {
     margin: 0;
     margin-top: 10px;
     max-width: 200px;
+    margin-bottom: 10px;
 }
 
 
@@ -291,6 +303,15 @@ p.oe-flex-item {
 
 
 /* artisan hub */
+#story{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.artisan-hub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+} 
 .artisan-hub-info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -337,12 +358,12 @@ p.oe-flex-item {
 
 /* upcoming exhibitions */
 .upcoming {
-    background-color: #c0f94e;
+    background-color:rgb(208, 191, 167);
     padding-bottom: 30px;
 }
 
 .upcoming-exhib {
-    color: #4f4f01;
+    color:black;
     padding-top: 40px;
 }
 
@@ -375,21 +396,27 @@ p.oe-flex-item {
 
 
 .card {
-    
+    min-height: 309.06px;
     padding: 12px;
     text-align: center;
     background-color: #f1f1f1;
     transition: 0.3s;
     border-radius: 10px;
 }
+.card:hover{
+    box-shadow: 2px 2px 6px black;
+    transform: translateY(-2px);
+}
 
 
 
 .upcoming img {
+    height: 149.48px;
     border-radius: 10px 10px 10px 10px;
 }
 
 /* newsletter */
+
 
 * {
     box-sizing: border-box;
@@ -399,7 +426,7 @@ p.oe-flex-item {
 
 
 .box {
-    
+
     background-color: #ffffff;
     border-radius: 20px;
     
@@ -510,7 +537,7 @@ p.oe-flex-item {
 
 
 .footer {
-    margin-top: 380px;
+    margin-top: 80px;
     margin-left: 30px;
     margin-right: 30px;
     background-color: antiquewhite;
