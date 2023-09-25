@@ -261,7 +261,7 @@ p.oe-flex-item {
 
 /* our gallery */
 .our-gallery {
-    background-color: #f8edcd;
+    background-color: #f4f1e9;
     margin-top: 40px;
 }
 
@@ -280,6 +280,12 @@ p.oe-flex-item {
     margin: 10px;
     height: 120px;
     width: auto;
+    border-radius: 8px;
+}
+.our-gallery-img:hover{
+    transform: translate(-5px,-5px);
+    box-shadow: 1px 1px 10px #231401;
+   
 }
 
 .our-gallery-btn {
@@ -299,6 +305,12 @@ p.oe-flex-item {
     font-size: 16px;
     border-radius: 8px;
     margin-bottom: 20px;
+}
+#explore-gallery:hover{
+    background-color: #c7a7a1;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 10px #231401;
 }
 
 
@@ -572,13 +584,20 @@ p.oe-flex-item {
     justify-content: center;
     flex-direction: column;
 }
-
+.footer-mail{
+    margin-right: 100px;
+    width: 60%;
+}
 .footer-text{
     text-align: center;
     text-wrap: wrap;
 }
 .copyright{
     margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    
+    
     text-align: center;
     background-color: aliceblue;
     color:black;
