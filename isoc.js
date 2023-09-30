@@ -5,7 +5,15 @@ var preloader= document.getElementById('loading');
 function myFunction(){
   preloader.style.display = 'none';
 }
+// responsive header
+burger=document.querySelector('.burger')
+navbar=document.querySelector('.header')
+navList=document.querySelector('.main-nav')
+burger.addEventListener('click',()=>{
+  navbar.classList.toggle('hResp');
+  navList.classList.toggle('navResp');
 
+})
 // Handle dropdown menu toggle
 navbarMenu.addEventListener('click', (event) => {
   if (event.target.classList.contains('dropdown-toggler')) {
