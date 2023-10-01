@@ -504,6 +504,14 @@ p.oe-flex-item {
     right: 0;
     
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn a:active{
+    text-decoration: none;
+    color: white;
+}
 
 .input:focus,
 .btn:focus {
@@ -525,7 +533,14 @@ p.oe-flex-item {
     right: 20px;
     z-index: 999;
 }
-
+.floating-btn a{
+    text-decoration: none;
+    color: white;
+}
+.floating-btn a:active{
+    text-decoration: none;
+    color: white;
+}
 
 
 .floating-btn:focus {
@@ -580,6 +595,14 @@ p.oe-flex-item {
     justify-content: center;
     gap: 15px;
     align-items: center;
+}
+.footer-btn{
+    text-decoration: none;
+    color: white;
+}
+.footer-btn:active{
+    text-decoration: none;
+    color: white;
 }
 .newsletter .newsletter-row{
     display: flex;
