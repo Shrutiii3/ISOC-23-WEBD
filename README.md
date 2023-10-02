@@ -24,6 +24,7 @@ The primary objective of this project is to craft an open-source website dedicat
 1. **Sticky Navbar:** Created an adaptive and sticky navigation bar that seamlessly transforms to suit varying screen sizes, ensuring an uninterrupted and user-friendly experience, particularly on mobile devices.
 
 2. **CSS Enhancements:** Elevated the aesthetic and user experience with features such as self-scrolling at defined intervals, seamless mouse, keypad, and touch-based scrollability, user-friendly artifact carousels, and an elegant, royal-themed preloader. Imbued dynamism into static components wherever feasible.
+Used the theme "Retro-Futurism" for elevating the aesthetic.
 
 3. **Preloader:** added a preloader that provides a seamless transition when the website loads, to improve user experience and engagement.
 
