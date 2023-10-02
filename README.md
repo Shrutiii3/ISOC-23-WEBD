@@ -1,5 +1,123 @@
 # ISOC'23 Web Development Track: Popularising Local Artifacts - An Open Source Challenge
 
+## Project Overview
+
+The primary objective of this project is to craft an open-source website dedicated to the promotion of local artifacts. It is dedicated to promoting and popularizing local artifacts through a web-based platform.
+
+###  Features
+
+1. **Preloader:** Provides a seamless transition when the website loads, to improve user experience and engagement.
+
+2. **Auto Scroll:**  Auto-scroll feature allows users to automatically scroll through the page for a more immersive experience. Auto-scroll can be started or stoped using the provided button.
+
+3. **360-Degree Gallery View:**  An interactive 360-degree & 3D gallery view, situated on the Exhibition. This feature facilitates touch and mouse-based rotation without the need for arrow buttons, offering an intuitive and sensorial artifact exploration experience.
+
+4. **Responsive:** Responsive website , ensuring an uninterrupted and user-friendly experience, even on mobile devices.
+
+6. **Contact Us:** "Contact Us" section for efficiently managing inquiries and user feedback.
+
+
+
+
+### Issues Resolved
+
+1. **Sticky Navbar:** Created an adaptive and sticky navigation bar that seamlessly transforms to suit varying screen sizes, ensuring an uninterrupted and user-friendly experience, particularly on mobile devices.
+
+2. **CSS Enhancements:** Elevated the aesthetic and user experience with features such as self-scrolling at defined intervals, seamless mouse, keypad, and touch-based scrollability, user-friendly artifact carousels, and an elegant, royal-themed preloader. Imbued dynamism into static components wherever feasible.
+
+3. **Preloader:** added a preloader that provides a seamless transition when the website loads, to improve user experience and engagement.
+
+4. **Auto Scroll:** Added an auto-scroll feature to the website, allowing users to automatically scroll through the page for a more immersive experience. Auto-scroll can be started or stoped using the provided button.
+
+5. **Button Functionality:** Imbued all provided buttons within the base project with full functionality, ensuring they perform their designated actions seamlessly.
+
+6. **Contact Us:** Established a "Contact Us" section for efficiently managing inquiries and user feedback.
+
+7. **360-Degree Gallery View:** Built an interactive 360-degree & 3D gallery view, situated on the Exhibition. This feature facilitates touch and mouse-based rotation without the need for arrow buttons, offering an intuitive and sensorial artifact exploration experience.
+
+8. **Responsive:** Made the website responsive, ensuring an uninterrupted and user-friendly experience, even on mobile devices.
+
+
+
+
+###  Given Issues
+
+1. **Toggle Light and Dark Mode:** Empower users with the ability to seamlessly switch between light and dark modes, thereby elevating their browsing experience.
+
+2. **Sticky Navbar:** Create an adaptive and sticky navigation bar that seamlessly transforms to suit varying screen sizes, ensuring an uninterrupted and user-friendly experience, particularly on mobile devices.
+
+3. **CSS Enhancements:** Elevate the aesthetic and user experience with features such as self-scrolling at defined intervals, seamless mouse, keypad, and touch-based scrollability, user-friendly artifact carousels, and an elegant, royal-themed preloader. Endeavor to imbue dynamism into static components wherever feasible.
+
+4. **Button Functionality:** Imbue all provided buttons within the base project with full functionality, ensuring they perform their designated actions seamlessly. Participants are encouraged to introduce additional features that align with their creative vision.
+
+5. **Multilingual Support:** Provide language change options for English, French, German, and Spanish as a minimum requirement, offering an inclusive and accessible user interface.
+
+6. **Exhibition Categorization:** Implement a robust filtration system for categorizing artifacts, allowing users to explore and discover artifacts based on type, chronology, rarity, and other pertinent criteria.
+
+7. **Contact Us:** Establish a "Contact Us" section equipped with a robust database for efficiently managing inquiries and user feedback.
+
+8. **Add to Calendar Functionality:** Enable users to add events and exhibition dates to their calendars for easy event tracking and reminders.
+
+9. **Ticket Booking System:** Implement a robust ticket booking system frontend, allowing users to purchase tickets for exhibitions and manage their bookings.
+
+10. **Share Event Details:** Enable users to share event details and artifacts using social media platforms and provide a "Copy URL" functionality for easy sharing.
+
+11. **Search and Filter Functionality:** Enhance user experience by implementing robust search and filter options. Allow users to effortlessly discover exhibitions based on criteria such as date, location, category, or artist.
+
+12. **User Reviews and Ratings:** Elevate user engagement and interaction by introducing a sophisticated review and rating system. Develop intuitive user interfaces for submitting and displaying reviews, and calculate ratings to display average ratings, providing valuable insights to your audience.
+
+13. **360-Degree Gallery View:** Immerse users in an interactive 360-degree & 3D gallery view, situated on the Exhibition (or an analogous page in accordance with your site's structure). This feature should facilitate touch and mouse-based rotation without the need for arrow buttons, offering an intuitive and sensorial artifact exploration experience.
+
+14. **360-Degree Artifact Rotation:** Introduce a 360-degree artifact viewing capability to the Gallery (or a suitable page as per your site's layout), enabling users to comprehensively examine artifacts from every conceivable angle. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ISOC'23 Web Development Track: Popularising Local Artifacts - An Open Source Challenge
+
 Welcome to the ISOC'23 Web Development Track! In this open source competition, your challenge is to draw inspiration and elevate the provided base project, which is dedicated to promoting and popularizing local artifacts through a web-based platform. We highly encourage the display of creativity, innovation, and meticulous attention to detail in your contributions. Please meticulously peruse this README for comprehensive project details and guidelines.
 
 ## Project Overview

@@ -14,6 +14,39 @@ burger.addEventListener('click',()=>{
   navList.classList.toggle('navResp');
 
 })
+// Auto Scroll
+scroller=document.querySelector('.scroll')
+let scrollerId;
+let paused=true;
+let speed=2;
+let interval= speed*5;
+function startScroll(){
+  let id= setInterval(function (){
+    window.scrollBy(0,2);
+    if(
+      window.innerHeight + window.scrollY==document.body.offsetHeight
+    ){
+      //reached end of page
+      stopScroll();
+    }
+  },interval);
+  return id;
+}
+function stopScroll(){
+  clearInterval(scrollerId);
+}
+scroller.addEventListener('click',()=>{
+  if(paused==true){
+    scrollerId=startScroll();
+    paused=false;
+  }else{
+    stopScroll();
+    paused=true
+  }
+});
+
+
+
 // Handle dropdown menu toggle
 navbarMenu.addEventListener('click', (event) => {
   if (event.target.classList.contains('dropdown-toggler')) {
