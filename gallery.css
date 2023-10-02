@@ -190,9 +190,10 @@ iframe{
     }
     .navResp{
         opacity: 0;
+        
     }
     .hResp{
-        height: 68px;
+        height: 52px;
     }
 
 }

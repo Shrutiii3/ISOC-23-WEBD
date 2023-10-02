@@ -162,7 +162,7 @@ section input{
     display:none;
     position: absolute;
     cursor: pointer;
-    right: 2%;
+    right: 6%;
     top:28px;
 }
 .line{
@@ -189,10 +189,13 @@ section input{
         opacity: 0;
     }
     .hResp{
-        height: 68px;
+        height: 52px;
     }
     section input{
-        width: 100%;
+        width: 200%;
+        position: relative;
+        left: -80px;
+        margin-right: auto;
     }
     .btn{
         width: 100%;
